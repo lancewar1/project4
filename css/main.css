@@ -1,10 +1,159 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
+* {
+    box-sizing: border-box;
+}
 
 
-
-body{
+body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background-color: rgb(228, 228, 245);
+    background-color: rgb(96, 72, 255);
+    margin: 0;
+}
+
+.article {
+    background-color: white;
+    border-radius: 10%;
+    width: 400px;
+    box-shadow: 5px 5px 27px rgba(152, 167, 193, 0.397);
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+}
+
+.article:hover {
+    transform: scale(1.1);
+    transition: all .5s ease;
+
+}
+
+
+p {
+    text-align: left;
+    font-size: smaller;
+}
+
+fieldset {
+    margin-bottom: 5rem;
+    border: none;
+
+}
+
+.buttons {
+    display: flex;
+
+
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.rectangle {
+    position: absolute;
+    background: white;
+
+    top: 0;
+    height: 280px;
+    z-index: -1;
+    width: 100%;
+
+}
+
+input {
+    width: 75px;
+    height: 50px;
+    margin-right: 16px;
+    background-color: rgba(179, 179, 179, 0.249);
+    border-radius: 30px;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+input:hover {
+    background-color: rgba(108, 108, 108, 0.249);
+}
+
+label {
+    font-size: smaller;
+
+}
+
+.latest {
+    color: white;
+}
+
+.yourcountry {
+    text-align: center;
+    font-size: large;
+    font-weight: 570;
+    margin-left: 1rem;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+h1 span {
+    color: rgb(96, 72, 255);
+    font-weight: 900;
+}
+
+@media screen and (min-width: 600px) {
+
+
+    .articlecontainer {
+        display: flex;
+        margin-right: 1rem;
+        margin-left: 4rem;
+
+    }
+
+    .article {
+        width: 100%;
+    }
+
+    .latest {
+        text-align: left;
+        margin-left: 5rem;
+        font-size: 4vw;
+    }
+
+    fieldset {
+        margin-left: 4rem;
+    }
+
+    h1 {
+        font-size: 5vw;
+        text-align: left;
+        margin-left: 4rem;
+        min-width: 700px;
+    }
+
+    .rectangle {
+        height: 25vw;
+        min-height: 280px;
+    }
+
+    .yourcountry {
+        text-align: left;
+        margin-left: 5rem;
+        font-size: 1.5rem;
+    }
+    input{
+        width: 20vw;
+    }
+
+
+
+
+
+
+
+
+
+
 }

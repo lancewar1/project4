@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 4</title>
     <script src="js/main.js"></script>
-    <link rel="stylesheet" href="css/">
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-    <h1>Your News Now!</h1>
+    <h1>YourNews <span>Now!</span></h1>
 
     <fieldset id="select">
-        <legend>Select a new country?</legend>
-    
-        <div>
-          <input type="radio" id="US" name="drone" value="US"
-                 checked>
-          <label for="US">United States</label>
+        <legend>Select a new country</legend>
+        <div class="buttons">
+            <div class="button">
+                <input type="button" id="US" name="drone" value="US">
+
+            </div>
+
+            <div class="button">
+                <input type="button" id="JP" name="drone" value="JP">
+
+            </div>
+
+            <div class="button">
+                <input type="button" id="AU" name="drone" value="AU">
+
+            </div>
+            <div class="button">
+                <input type="button" id="GB" name="drone" value="GB">
+            </div>
         </div>
-    
-        <div>
-          <input type="radio" id="JP" name="drone" value="JP">
-          <label for="UK">Japan</label>
-        </div>
-    
-        <div>
-          <input type="radio" id="AU" name="drone" value="AU">
-          <label for="AU">Australia</label>
-        </div>
-        <div>
-            <input type="radio" id="GB" name="drone" value="GB">
-            <label for="GB">United Kingdom</label>
-          </div>
     </fieldset>
-    
+
+    <h2 class="latest">Latest News</h2>
+    <div class="rectangle"></div>
+
 </body>
+
 </html>
