@@ -114,12 +114,13 @@ h1 span {
 
     .article {
         width: 100%;
+        border-radius: 2vw;
     }
 
     .latest {
         text-align: left;
         margin-left: 5rem;
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     fieldset {
@@ -146,7 +147,6 @@ h1 span {
     input{
         width: 20vw;
     }
-
 
 
 

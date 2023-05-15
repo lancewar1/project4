@@ -36,6 +36,10 @@ window.onload = function () {
                 descriptionElement.textContent = article.description;
                 urlElement.textContent = article.url;
                 urlElement.setAttribute("href", article.url);
+                articleElement.addEventListener("click", () => {
+                    window.open(article.url, "_blank");
+                  });
+                  
   
                 articleElement.appendChild(titleElement);
                 articleElement.appendChild(descriptionElement);
@@ -43,6 +47,7 @@ window.onload = function () {
   
                 newsContainer.appendChild(articleElement);
                 articleElement.classList.add("article"); 
+             
               }
             })
             .catch((error) => {
@@ -76,6 +81,9 @@ window.onload = function () {
                 descriptionElement.textContent = article.description;
                 urlElement.textContent = article.url;
                 urlElement.setAttribute("href", article.url);
+                articleElement.addEventListener("click", () => {
+                    window.open(article.url, "_blank");
+                  });
   
                 articleElement.appendChild(titleElement);
                 articleElement.appendChild(descriptionElement);
