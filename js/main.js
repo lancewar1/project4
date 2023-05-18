@@ -16,7 +16,7 @@ window.onload = function () {
           console.log(countryData);
   
           fetch(
-            `http://api.mediastack.com/v1/news?access_key=0317afbadd7773a166518d6c1e842e47&countries=${countryData}`
+            `https://api.mediastack.com/v1/news?access_key=0317afbadd7773a166518d6c1e842e47&countries=${countryData}`
           )
             .then((response) => response.json())
             .then((data) => {
@@ -61,7 +61,7 @@ window.onload = function () {
             console.log(countryData);
   
             fetch(
-              `http://api.mediastack.com/v1/news?access_key=0317afbadd7773a166518d6c1e842e47&countries=${countryData}`
+              `https://api.mediastack.com/v1/news?access_key=0317afbadd7773a166518d6c1e842e47&countries=${countryData}`
             )
               .then((response) => response.json())
               .then((data) => {
